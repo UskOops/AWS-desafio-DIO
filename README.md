@@ -3,20 +3,20 @@
 # Esse código faz parte do bootcamp AWS. Vale destacar que usando javascript aprimorei o código do tutor, trazendo mais segurança para o mesmo. Abaixo segue uma lista das melhorias que apliquei 
 
 
-<h1> Utilizado a sintaxe exports.handler em vez de module.exports.handler para exportar a função hello.
-# Usei um operador de propagação para simplificar a exportação da função hello.
-# Utilizei o try-catch para tratar os erros de forma mais adequada e evitar que a aplicação pare de funcionar em caso de falhas.
-# Adicionei a validação de erro para verificar se o item foi encontrado com sucesso antes de retorná-lo ao usuário.
-# Utilizei a sintaxe exports.handler em vez de module.exports.handler para exportar a função fetchItem.
-# Utilizei o nome da tabela do DynamoDB como uma variável de ambiente em vez de codificá-la diretamente no código.
-# Utilizei a sintaxe exports.handler em vez de module.exports.handler para exportar a função fetchItems.
-# Validei se o corpo da requisição contém o objeto item antes de processá-lo, para evitar erros caso o corpo esteja vazio.
-# Utilizei a sintaxe exports.handler em vez de module.exports.handler para exportar a função insertItem
-# Verifiquei se o ID fornecido na URL é um valor válido no formato UUID antes de realizar a operação de atualização.
-# Verificar se o valor do campo "itemStatus" no corpo da solicitação é um valor booleano válido antes de atualizar o registro no banco de dados </h1>
+<h1># Utilizado a sintaxe exports.handler em vez de module.exports.handler para exportar a função hello.</h1>
+<h1># Usei um operador de propagação para simplificar a exportação da função hello.</h1>
+<h1># Utilizei o try-catch para tratar os erros de forma mais adequada e evitar que a aplicação pare de funcionar em caso de falhas.</h1>
+<h1># Adicionei a validação de erro para verificar se o item foi encontrado com sucesso antes de retorná-lo ao usuário.</h1>
+<h1># Utilizei a sintaxe exports.handler em vez de module.exports.handler para exportar a função fetchItem.</h1>
+<h1># Utilizei o nome da tabela do DynamoDB como uma variável de ambiente em vez de codificá-la diretamente no código.</h1>
+<h1># Utilizei a sintaxe exports.handler em vez de module.exports.handler para exportar a função fetchItems.</h1>
+<h1># Validei se o corpo da requisição contém o objeto item antes de processá-lo, para evitar erros caso o corpo esteja vazio.</h1>
+<h1># Utilizei a sintaxe exports.handler em vez de module.exports.handler para exportar a função insertItem</h1>
+<h1># Verifiquei se o ID fornecido na URL é um valor válido no formato UUID antes de realizar a operação de atualização.</h1>
+<h1># Verificar se o valor do campo "itemStatus" no corpo da solicitação é um valor booleano válido antes de atualizar o registro no banco de dados</h1>
 
 
-Pré requisitos: 
+# Pré requisitos: 
  - possuir uma conta na AWS e instalar Node.js na máquina.
  - Instalar o AWS CLI: https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html
 
