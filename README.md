@@ -1,9 +1,9 @@
 <H3>Live Coding da DIO</h3>
 
-<h2> Esse código faz parte do bootcamp AWS. Vale destacar que usando javascript aprimorei o código do tutor, trazendo mais segurança para o mesmo. Abaixo segue uma lista das melhorias que apliquei </h2>
+# Esse código faz parte do bootcamp AWS. Vale destacar que usando javascript aprimorei o código do tutor, trazendo mais segurança para o mesmo. Abaixo segue uma lista das melhorias que apliquei 
 
 
-# Utilizado a sintaxe exports.handler em vez de module.exports.handler para exportar a função hello.
+<h1> Utilizado a sintaxe exports.handler em vez de module.exports.handler para exportar a função hello.
 # Usei um operador de propagação para simplificar a exportação da função hello.
 # Utilizei o try-catch para tratar os erros de forma mais adequada e evitar que a aplicação pare de funcionar em caso de falhas.
 # Adicionei a validação de erro para verificar se o item foi encontrado com sucesso antes de retorná-lo ao usuário.
@@ -13,7 +13,7 @@
 # Validei se o corpo da requisição contém o objeto item antes de processá-lo, para evitar erros caso o corpo esteja vazio.
 # Utilizei a sintaxe exports.handler em vez de module.exports.handler para exportar a função insertItem
 # Verifiquei se o ID fornecido na URL é um valor válido no formato UUID antes de realizar a operação de atualização.
-# Verificar se o valor do campo "itemStatus" no corpo da solicitação é um valor booleano válido antes de atualizar o registro no banco de dados
+# Verificar se o valor do campo "itemStatus" no corpo da solicitação é um valor booleano válido antes de atualizar o registro no banco de dados </h1>
 
 
 Pré requisitos: 
