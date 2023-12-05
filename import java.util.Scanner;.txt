@@ -1,0 +1,42 @@
+import java.util.Scanner;
+
+public class ClassificadorHeroi {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Solicitar o nome do herói
+        System.out.print("Digite o nome do herói: ");
+        String nomeHeroi = scanner.nextLine();
+
+        // Solicitar a quantidade de experiência (XP) do herói
+        System.out.print("Digite a quantidade de experiência do herói: ");
+        int xpHeroi = scanner.nextInt();
+
+        // Classificar o nível do herói com base na quantidade de experiência
+        String nivelHeroi;
+
+        if (xpHeroi < 1000) {
+            nivelHeroi = "Ferro";
+        } else if (xpHeroi <= 2000) {
+            nivelHeroi = "Bronze";
+        } else if (xpHeroi <= 5000) {
+            nivelHeroi = "Prata";
+        } else if (xpHeroi <= 7000) {
+            nivelHeroi = "Ouro";
+        } else if (xpHeroi <= 8000) {
+            nivelHeroi = "Platina";
+        } else if (xpHeroi <= 9000) {
+            nivelHeroi = "Ascendente";
+        } else if (xpHeroi <= 10000) {
+            nivelHeroi = "Imortal";
+        } else {
+            nivelHeroi = "Radiante";
+        }
+
+        // Exibir a mensagem com o nível do herói
+        System.out.println("O Herói de nome " + nomeHeroi + " está no nível de " + nivelHeroi);
+
+        // Fechar o scanner para evitar vazamento de recursos
+        scanner.close();
+    }
+}
